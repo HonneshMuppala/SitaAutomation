@@ -1,0 +1,12 @@
+<suite name ="Suite">
+    <listeners>
+        <listener class-name="com.qa.utilities.Reporting"/>
+    </listeners>
+    <test thread-count ="5" name ="sita_testing">
+        <parameter name ="Browser" value ="Chrome"> </parameter> 
+        <parameter name ="Url" value ="https://sitatesting.github.io/AutomationTest/index.html"> </parameter>
+        <classes>
+            <class name="com.qa.Testscripts.SitaTest"/>
+        </classes>
+    </test>
+</suite>

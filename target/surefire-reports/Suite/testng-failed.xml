@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="sita_testing(failed)" verbose="0">
+    <parameter name="Url" value="https://sitatesting.github.io/AutomationTest/index.html"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.Testscripts.SitaTest">
+        <methods>
+          <include name="Reservation_page"/>
+          <include name="Explore_more_page"/>
+          <include name="Explore_more"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.Testscripts.SitaTest -->
+    </classes>
+  </test> <!-- sita_testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

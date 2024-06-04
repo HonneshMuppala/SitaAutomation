@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-04T14:13:44 IST" name="Suite" finished-at="2024-06-04T14:14:13 IST" duration-ms="28637">
+    <groups>
+    </groups>
+    <test started-at="2024-06-04T14:13:44 IST" name="sita_testing" finished-at="2024-06-04T14:14:13 IST" duration-ms="28637">
+      <class name="com.qa.Testscripts.SitaTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscripts.SitaTest@51e5fc98]" started-at="2024-06-04T14:13:44 IST" name="setup" finished-at="2024-06-04T14:13:47 IST" duration-ms="2913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://sitatesting.github.io/AutomationTest/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Sita_Home_page()[pri:1, instance:com.qa.Testscripts.SitaTest@51e5fc98]" started-at="2024-06-04T14:13:47 IST" name="Sita_Home_page" finished-at="2024-06-04T14:13:48 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sita_Home_page -->
+        <test-method signature="Explore_more()[pri:2, instance:com.qa.Testscripts.SitaTest@51e5fc98]" started-at="2024-06-04T14:13:48 IST" name="Explore_more" finished-at="2024-06-04T14:13:51 IST" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Explore_more -->
+        <test-method signature="Explore_more_page()[pri:3, instance:com.qa.Testscripts.SitaTest@51e5fc98]" started-at="2024-06-04T14:13:51 IST" name="Explore_more_page" finished-at="2024-06-04T14:14:01 IST" duration-ms="10726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Explore_more_page -->
+        <test-method signature="Reservation_page()[pri:4, instance:com.qa.Testscripts.SitaTest@51e5fc98]" started-at="2024-06-04T14:14:01 IST" name="Reservation_page" finished-at="2024-06-04T14:14:12 IST" duration-ms="10941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reservation_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscripts.SitaTest@51e5fc98]" started-at="2024-06-04T14:14:12 IST" name="tearDown" finished-at="2024-06-04T14:14:13 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Testscripts.SitaTest -->
+    </test> <!-- sita_testing -->
+  </suite> <!-- Suite -->
+</testng-results>
